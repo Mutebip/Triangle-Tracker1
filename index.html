@@ -5,21 +5,21 @@
     <title>Triangle Tracker1</title>
   </head>
   <body>
-    <div>
+    <div >
       <h1>Findout all kinds of Triangles!</h1>
 
-      <script src="js/scripts.js"></script>
-      <!--Add input types which collect users data and pushes to scripts.js-->
-      <p>Input the first measurements</p>
+<div class="in">
+      <p><strong>Input the first measurements</strong></p>
       <input type="number" id="sideOne" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
-      <p>Input the second measurements</p>
+      <p><strong>Input the second measurements</strong></p>
       <input type="number" id="sideTwo" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
-      <p>Input the third measurements</p>
+      <p><strong>Input the third measurements</strong></p>
       <input type="number" id="sideThree" placeholder="Enter value" onfocus="placeholder=''" onblur="placeholder='Enter value'">
+    </div class="in">
       <br>
       <br>
-      <!-- Add button which executes function {triangle()} from scripts.js-->
       <button type="button" onclick="triangle()">submit</button>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
